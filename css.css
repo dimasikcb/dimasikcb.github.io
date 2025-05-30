@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Roboto;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+header {
+    margin-top: 42px;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tit,
+.card div p,
+.textproduct {
+    font-size: 16px;
+    opacity: .7;
+}
+
+a {
+    color: #fff;
+}
+
+
+.navicetion ul {
+    display: flex;
+    gap: 28px;
+}
+
+.logo {}
+
+.navicetion a {
+    font-size: 14px;
+    opacity: .7;
+    transition: opacity 0.3s;
+}
+
+.navicetion a.glavn {
+    opacity: 1;
+}
+
+.navicetion a:hover {
+    opacity: .9;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #F6762C;
+    border-radius: 5px;
+    padding: 15px 37px;
+    transition: opacity 0.5s;
+}
+
+
+.welcom {
+    min-height: 100vh;
+    margin-top: -91px;
+    padding: 286px 0 240px;
+    background-image: url(/images/welcome-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container2 {
+    max-width: 550px;
+}
+
+.welcomP {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+
+.welcomtitle {
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 37px;
+}
+
+.welcomPr {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 70%;
+    margin-bottom: 42px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card div {
+    width: 262px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #312F30;
+    object-fit: cover;
+    text-align: center;
+}
+
+.card div h5 {
+    margin-top: 28px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card div p {
+    margin: 12px 35px 50px;
+}
+
+.food {
+    margin-top: 115px;
+    margin-bottom: 105px;
+}
+
+.burgerking .container {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.burgerking .container img {
+    margin-right: 230px;
+}
+
+.burgerking {
+    background-color: #312F30;
+}
+
+.conta {
+    width: 400px;
+}
+
+.conta h3 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.tit {
+    width: 368px;
+    margin-bottom: 15px;
+}
+
+.conta a {
+    display: block;
+    width: 166px;
+    margin-top: 11px;
+}
+
+.tit2,
+.tit3,
+.tit4 {
+    color: #F6762C;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.tit2 {
+    font-size: 20px;
+}
+
+.tit3 {
+    font-size: 16px;
+    text-decoration-line: line-through;
+    opacity: .5;
+}
+
+.product {
+    margin: 150px 0;
+}
+
+.product .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.text div {
+    margin-bottom: 11px;
+}
+
+.text h4 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.a:nth-child(even) {
+    padding: 60px 290px 60px 29px;
+}
+
+.textproduct {
+    margin-bottom: 11px;
+}
+
+.text .tit2 {
+    margin-right: 5px;
+}
+
+.a {
+    background-repeat: no-repeat;
+    width: 555px;
+    height: 300px;
+    padding: 60px 29px 60px 290px;
+}
+
+.productcontainer {
+    background-image: url(/images/product-1.jpg);
+
+}
+
+.productcontainer2 {
+    background-image: url(/images/product-2.jpg);
+
+}
+
+.productcontainer3 {
+    background-image: url(/images/product-3.jpg);
+
+}
+
+.productcontainer4 {
+    background-image: url(/images/product-4.jpg);
+}
+
+.feedback {
+    margin: 0 0 200px;
+}
+
+.feedback .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feedText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 370px;
+    margin-left: 130px;
+}
+
+.feedText::before {
+    content: url(/images/icons/quote.svg);
+}
+
+.feedText p {
+    opacity: .7;
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.feedText cite {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 2px;
+}
+
+.feedText span {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: .7;
+}
+
+
+.dounloud {
+    background-color: #312F30;
+}
+
+.dounloud .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 93px;
+}
+
+.dounloud h3 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+
+footer .container{
+    display: flex;
+    align-items: center;
+    height: 380px;
+    justify-content: space-between;
+}
+.contacts{
+    margin-bottom: 15px;
+}
+.f{
+    margin-bottom: 26px;
+}
+.cards{
+    margin-bottom: 10px;
+}
+.contacts a{
+    font-size: 12px;
+    opacity: 0.8;
+}
+.icon{
+    margin-right: 10px;
+}
+.nav>ul{
+    display: flex;
+    flex-direction: row;
+}
+.m, .l{
+    margin-right: 160px;
+}
+ul p{
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+ul li{
+    margin-bottom: 15px;
+    font-size: 12px;
+    opacity: .8;
+}
+.www{
+    margin-bottom: 0;
+}
+.logobox{
+    margin-bottom: 70px;
+}
+.logobox p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
