@@ -486,6 +486,9 @@ footer .container{
 .dounloud .container {
         padding: 20px 30px;
     }
+    .textproduct{
+        opacity: 1;
+    }
 }
 @media (max-width: 450px){
 .navicetion a{
